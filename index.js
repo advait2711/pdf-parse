@@ -1,5 +1,6 @@
-// index.js
-import pdf from './lib/pdf-parse.js';
-export default pdf; // export the function safely
+const Fs = require('fs');
+const Pdf = require('./lib/pdf-parse.js');
 
-// No demo/test code
+module.exports = Pdf;
+
+let isDebugMode = !module.parent; 
