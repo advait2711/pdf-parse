@@ -25,4 +25,4 @@ let isDebugMode = !module.parent;
 //         debugger;
 //     });
 
-}
+
